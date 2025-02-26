@@ -1,6 +1,5 @@
-import type { StrapiApp } from '@strapi/strapi/admin';
-import React from 'react';
-import logo from './extensions/logo.png';
+import type { StrapiApp } from "@strapi/strapi/admin";
+import logo from "./extensions/Mindsparks.webp";
 
 export default {
   config: {
@@ -34,27 +33,29 @@ export default {
     ],
 
     auth: {
-      logo
+      logo,
     },
     head: {
       favicon: logo,
     },
     menu: {
-      logo
+      logo,
     },
     translations: {
       en: {
         "app.components.LeftMenu.navbrand.title": "Store Dashboard",
-  
+
         "app.components.LeftMenu.navbrand.workplace": "Testing",
-  
-        "Auth.form.welcome.title": "Welcome to Mind Sparks",
-  
-        "Auth.form.welcome.subtitle": "Login to your account ✧˖°✧˖°",
 
-        "app.components.HomePage.welcome.title": "Welcome to Mind Sparks Admin Dashboard 🚀",
+        "Auth.form.welcome.title": "",
 
-        "app.components.HomePage.welcome.subtitle": "Hasta la vista baby ✧˖°✧˖°",
+        "Auth.form.welcome.subtitle": "MindSparks CMS ✧˖°✧˖°",
+
+        "app.components.HomePage.welcome.title":
+          "Welcome to Mind Sparks Admin Dashboard 🚀",
+
+        "app.components.HomePage.welcome.subtitle":
+          "Hasta la vista baby ✧˖°✧˖°",
 
         "Settings.profile.form.section.experience.interfaceLanguageHelp":
           "Preference changes will apply only to you.",
@@ -65,5 +66,4 @@ export default {
   bootstrap(app: StrapiApp) {
     console.log(app);
   },
-
 };

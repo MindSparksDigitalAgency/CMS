@@ -1,8 +1,8 @@
 {
-  "name": "my-company-backend",
+  "name": "mindsparks-cms",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "Headless CMS for Mindsparks Digital Agency",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
@@ -33,5 +33,6 @@
   },
   "strapi": {
     "uuid": "3cf3fd6c-f0fc-4b24-94dd-caa460faf4b8"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha512.ff4579ab459bb25aa7c0ff75b62acebe576f6084b36aa842971cf250a5d8c6cd3bc9420b22ce63c7f93a0857bc6ef29291db39c3e7a23aab5adfd5a4dd6c5d71"
 }
